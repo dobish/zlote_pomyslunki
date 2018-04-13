@@ -32,6 +32,7 @@ h1
 
 h2
 {
+	margin-top: 0px;
 	font-size: 15px;
 	line-height: 70px;
 	margin-right: 20px;
@@ -57,11 +58,14 @@ h2
 
 #container
 {
+	display: grid;
+	grid-template-columns: auto auto auto;
 	background-color: white;
 	width: 900px;
 	margin-top: 0px;
 	margin-left: auto;
 	margin-right: auto;
+	min-height: 300px;
 }
 
 #sidebar
@@ -70,14 +74,15 @@ h2
 	float: left;
 	width: 150px;
 	text-align: center;
+	margin-top: 60px;
 }
 
 
 #content
 {
-	float: left;
+	margin-left: 60px;
 	width: 750px;
 	background-color: white;
 	margin-top: 30px;
-	margin-left: 180px;
+	display: block;
 }
